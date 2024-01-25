@@ -1,43 +1,55 @@
-RoamVerse Front-End (Angular)
+# RoamVerse
 
-Bu depo, RoamVerse projesinin front-end kısmını içermektedir. RoamVerse, seyahat deneyimlerini paylaşma ve yeni yerler keşfetme amacıyla oluşturulmuş bir platformdur. Bu depo, kullanıcı arayüzü, gezinme ve diğer ön yüz bileşenlerini içerir.
+RoamVerse, seyahat deneyimlerini paylaşma ve yeni yerler keşfetme platformudur.
 
-Özellikler
-Kullanıcı dostu arayüz tasarımı.
-Seyahat rotalarını görüntüleme ve paylaşma özelliği.
-En popüler rotalar ve şehirler listesini gösterme.
-Gezi rehberi ve iletişim sayfalarına erişim.
-Teknolojiler
-Angular Framework
-HTML5, CSS3
-Font Awesome ikonları
-... (gerektiğinde güncellenecek)
-Nasıl Başlatılır?
-Bu depoyu klonlayın:
+## Projeyi Başlatma
 
-bash
-Copy code
-git clone https://github.com/kullaniciadi/roamverse-front-end.git
-Proje dizinine gidin:
+Projeyi yerel makinanızda çalıştırmak için aşağıdaki adımları izleyin.
 
-bash
-Copy code
-cd roamverse-front-end
-Bağımlılıkları yükleyin:
+### Gereksinimler
 
-bash
-Copy code
-npm install
-Uygulamayı başlatın:
+- Node.js
+- Angular CLI
 
-bash
-Copy code
-ng serve
-Tarayıcıda http://localhost:4200/ adresine giderek uygulamayı görüntüleyebilirsiniz.
+### Kurulum
 
-Katkılar
-Eğer bu projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği oluşturun veya sorunları raporlayın.
+1. Projeyi klonlayın:
 
-Lisans
-Bu proje MIT lisansı altında lisanslanmıştır.
+    ```bash
+    git clone https://github.com/kullanici_adi/RoamVerse.git
+    ```
 
+2. Proje dizinine gidin:
+
+    ```bash
+    cd RoamVerse
+    ```
+
+3. Gerekli bağımlılıkları yükleyin:
+
+    ```bash
+    npm install
+    ```
+
+4. Uygulamayı başlatın:
+
+    ```bash
+    ng serve
+    ```
+
+5. Tarayıcınızda `http://localhost:4200/` adresine gidin.
+
+## Katkıda Bulunma
+
+1. Bu depoyu fork edin.
+2. Yeni bir özellik ekleyin veya bir hata düzeltin.
+3. Değişikliklerinizi açıklayan bir açıklama ekleyin.
+4. Pull request oluşturun.
+
+## Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır - [LICENSE.md](LICENSE.md) dosyası için detaylar.
+
+## İletişim
+
+- E-posta: agirbasegecan@gmail.com
