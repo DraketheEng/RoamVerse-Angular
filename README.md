@@ -46,10 +46,6 @@ Projeyi yerel makinanızda çalıştırmak için aşağıdaki adımları izleyin
 3. Değişikliklerinizi açıklayan bir açıklama ekleyin.
 4. Pull request oluşturun.
 
-## Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır - [LICENSE.md](LICENSE.md) dosyası için detaylar.
-
 ## İletişim
 
 - E-posta: agirbasegecan@gmail.com
