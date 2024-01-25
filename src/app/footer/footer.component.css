@@ -1,0 +1,68 @@
+/* footer.component.css */
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px 0; /* Yükseklik artışı */
+  margin-top: 20px;
+  position: relative; /* Göreceli konumlandırma */
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: space-between; /* Üst seviye bağlantıları yatayda eşit aralıklarla düzenle */
+  flex-wrap: wrap; /* Şehir listesi boyunca sarma (wrap) et */
+}
+
+.footer-links ul li {
+  position: relative; /* Alt seviye bağlantıları üst seviye bağlantının içinde konumlandır */
+  width: 200px; /* Her bir bağlantıya sabit bir genişlik ver */
+}
+
+/* footer.component.css */
+
+.footer-links ul li ul {
+  display: flex;
+  flex-direction: column;
+  top: 100%; /* Alt seviye bağlantıları üst seviye bağlantının altında konumlandır */
+  left: 0;
+  background-color: var(--primary-color); /* Arka plan rengi */
+  padding: 10px;
+  width: max-content; /* Alt seviye bağlantıların genişliğini içeriğe göre ayarla */
+  white-space: nowrap; /* Metinlerin alt satıra kaymasını engelle */
+}
+
+
+.footer-links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: var(--accent-color);
+}
+
+.footer-social-media {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-social-media a {
+  margin-right: 10px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-social-media a:hover {
+  color: var(--accent-color);
+}
+
+.footer-copyright {
+  text-align: center;
+}

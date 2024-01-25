@@ -1,0 +1,40 @@
+header {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo{
+  cursor: pointer;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-description {
+  font-size: 12px;
+}
+
+.header-call-to-action {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: var(--secondary-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+

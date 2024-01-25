@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --primary-color: #ff6347;
+  --secondary-color: #ffffff;
+  --tertiary-color: #6c757d;
+  --accent-color: #3498db;
+  --background-color: #f8f8f8; /* Açık Gri */
+}
+
+.button {
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+}
