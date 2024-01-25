@@ -1,19 +1,34 @@
 # RoamVerse Front-End (Angular)
 
-RoamVerse, seyahat deneyimlerini paylaşma ve yeni yerler keşfetme platformudur.
+![RoamVerse Logo](link-to-your-logo.png)
 
+RoamVerse, seyahat tutkunlarının deneyimlerini paylaşabileceği, yeni rotalar keşfederken diğer gezginlerle etkileşimde bulunabileceği bir platformun Angular tabanlı front-end kısmını içermektedir.
+
+## Özellikler
+
+- **Popüler Rotalar ve Şehirler:** En popüler seyahat rotalarını ve şehirleri keşfedin.
+- **Gezi Rehberi:** Özel ve kullanıcı tarafından oluşturulan gezi rehberleriyle seyahatinizi planlayın.
+- **İletişim:** Diğer gezginlerle bağlantı kurun, öneriler alın ve deneyimlerinizi paylaşın.
+
+## Kullanılan Teknolojiler
+
+- Angular
+- HTML
+- CSS
+- TypeScript
+  
 ## Projeyi Başlatma
 
-Projeyi yerel makinanızda çalıştırmak için aşağıdaki adımları izleyin.
+Projeyi yerel makinanızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
 
 ### Gereksinimler
 
-- Node.js
-- Angular CLI
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://cli.angular.io/)
 
 ### Kurulum
 
-1. Projeyi klonlayın:
+1. Bu repo'yu klonlayın:
 
     ```bash
     git clone https://github.com/kullanici_adi/RoamVerse.git
@@ -41,11 +56,12 @@ Projeyi yerel makinanızda çalıştırmak için aşağıdaki adımları izleyin
 
 ## Katkıda Bulunma
 
-1. Bu depoyu fork edin.
-2. Yeni bir özellik ekleyin veya bir hata düzeltin.
+1. Bu repo'yu fork edin.
+2. Yeni özellikler ekleyin veya hataları düzeltin.
 3. Değişikliklerinizi açıklayan bir açıklama ekleyin.
 4. Pull request oluşturun.
 
 ## İletişim
 
 - E-posta: agirbasegecan@gmail.com
+  
