@@ -1,27 +1,43 @@
-# RoamVerse
+RoamVerse Front-End (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Bu depo, RoamVerse projesinin front-end kısmını içermektedir. RoamVerse, seyahat deneyimlerini paylaşma ve yeni yerler keşfetme amacıyla oluşturulmuş bir platformdur. Bu depo, kullanıcı arayüzü, gezinme ve diğer ön yüz bileşenlerini içerir.
 
-## Development server
+Özellikler
+Kullanıcı dostu arayüz tasarımı.
+Seyahat rotalarını görüntüleme ve paylaşma özelliği.
+En popüler rotalar ve şehirler listesini gösterme.
+Gezi rehberi ve iletişim sayfalarına erişim.
+Teknolojiler
+Angular Framework
+HTML5, CSS3
+Font Awesome ikonları
+... (gerektiğinde güncellenecek)
+Nasıl Başlatılır?
+Bu depoyu klonlayın:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+bash
+Copy code
+git clone https://github.com/kullaniciadi/roamverse-front-end.git
+Proje dizinine gidin:
 
-## Code scaffolding
+bash
+Copy code
+cd roamverse-front-end
+Bağımlılıkları yükleyin:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+bash
+Copy code
+npm install
+Uygulamayı başlatın:
 
-## Build
+bash
+Copy code
+ng serve
+Tarayıcıda http://localhost:4200/ adresine giderek uygulamayı görüntüleyebilirsiniz.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Katkılar
+Eğer bu projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği oluşturun veya sorunları raporlayın.
 
-## Running unit tests
+Lisans
+Bu proje MIT lisansı altında lisanslanmıştır.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
