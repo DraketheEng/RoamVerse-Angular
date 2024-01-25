@@ -1,4 +1,4 @@
-# RoamVerse
+# RoamVerse Front-End (Angular)
 
 RoamVerse, seyahat deneyimlerini paylaşma ve yeni yerler keşfetme platformudur.
 
