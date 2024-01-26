@@ -8,10 +8,13 @@ import { FooterComponent } from './footer/footer.component';
 import {RouterModule, Routes} from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { GetInfoComponent } from './get-info/get-info.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  //{ path: 'sayfa1', component: Page1Component },
+  { path: 'giris', component: LoginComponent },
+  { path: 'bilgi-al', component: GetInfoComponent },
 ];
 
 @NgModule({
@@ -20,6 +23,8 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    LoginComponent,
+    GetInfoComponent,
   ],
   imports: [
     BrowserModule,

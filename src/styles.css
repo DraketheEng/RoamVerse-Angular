@@ -2,12 +2,15 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 :root {
-  --primary-color: #ff6347;
-  --secondary-color: #ffffff;
-  --tertiary-color: #6c757d;
-  --accent-color: #3498db;
-  --background-color: #f8f8f8; /* Açık Gri */
+  --primary-color: #ff6347;      /* Turuncu Kırmızı */
+  --secondary-color: #ffffff;    /* Beyaz */
+  --tertiary-color: #6c757d;     /* Gri Mavi */
+  --accent-color: #3498db;       /* Açık Mavi */
+  --background-color: #eeeeee;   /* Açık Gri */
+  --color-1: #aabbcc;        /* Pastel Mavi */
+  --color-2: #445566;        /* Kurşun Gri */
 }
+
 
 .button {
   font-size: 16px;
@@ -16,17 +19,36 @@
   outline: none;
   cursor: pointer;
   transition: 0.3s ease all;
-
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-
   border-radius: 5px;
   padding: 10px 20px;
 }
 
-.button:hover {
+.button-primary {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.button-accent {
   background-color: var(--accent-color);
   color: var(--secondary-color);
+}
+
+.button-primary:hover {
+  background-color: rgba(52, 152, 219, 0.9);
+}
+
+.button-secondary:hover {
+  background-color: rgba(231, 76, 60, 0.9);
+  color: #ffffff;
+}
+
+.button-accent:hover {
+  background-color: rgba(231, 76, 60, 0.9);
 }
 
 * {
@@ -38,4 +60,40 @@
 body {
   font-family: Arial, sans-serif;
   background-color: var(--background-color);
+}
+
+.card{
+  background-color: #eeeeee;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+ /* Link Stilleri */
+ a {
+  text-decoration: none;
+  position: relative;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/* Link Alt Çizgisi */
+a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--accent-color);
+  transition: width 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
 }

@@ -1,22 +1,30 @@
-<header>
-  <div class="container">
-    <div class="header-logo">
-      <div class="header-title">
-        <h1>RoamVerse</h1>
+  <header>
+    <div class="container">
+      <div class="header-logo" [routerLink]="['/']">
+        <div class="header-title">
+          <h1>RoamVerse</h1>
+        </div>
+        <div class="header-description">
+          <p>Seyahat deneyimlerinizi paylaşın ve yeni arkadaşlar edinin!</p>
+        </div>
       </div>
-      <div class="header-description">
-        <p>Seyahat deneyimlerinizi paylaşın ve yeni arkadaşlar edinin!</p>
-      </div>
-    </div>
-    <div class="header-content">
+      <div class="header-content">
 
-      <div class="header-call-to-action">
-        <a href="#">
-          <button class="button">TOPLULUĞA KATIL</button>
-          <button class="button">BİLGİ AL</button>
-          <button class="button">YORUMLAR</button>
-        </a>
+        <div class="header-call-to-action">
+
+            <button class="button button-primary">
+              <i class="fas fa-users"></i> TOPLULUĞA KATIL
+            </button>
+
+            <button class="button button-primary" [routerLink]="['/bilgi-al']">
+              <i class="fas fa-info-circle"></i> BİLGİ AL
+            </button>
+
+            <button class="button button-primary" [routerLink]="['/giris']">
+              <i class="fas fa-sign-in-alt"></i> GİRİŞ YAP
+            </button>
+          
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>

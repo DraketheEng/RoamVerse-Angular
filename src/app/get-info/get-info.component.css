@@ -1,0 +1,141 @@
+/* Genel Stiller */
+#info {
+    background-color: var(--background-color);
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* CSS Stilleri */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 15px;
+  }
+  
+  .input-group input{
+    width: 100%;
+  }
+  
+  /* Mesaj Alanı */
+  label[for="message"] {
+    margin-top: 15px;
+  }
+  
+  textarea {
+    width: 100%; /* Mesaj alanını genişlet */
+  }  
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--tertiary-color);
+    border-radius: 5px;
+  }
+  
+  button {
+    font-size: 18px;
+  }
+  
+  .info-options {
+    margin-top: 20px;
+  }
+  
+  /* İlgilendiğiniz Konular Stilleri */
+  .info-options h3 {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Form İmage ve Additional Information Stilleri */
+  .form-images,
+  .additional-information {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .form-images img {
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .additional-information {
+    width: 65%;
+  }
+  
+  /* Sıkça Sorulan Sorular Stilleri */
+  .additional-information h3 {
+    margin-top: 20px;
+  }
+  
+  .additional-information ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .additional-information ul li {
+    margin-bottom: 20px;
+  }
+  
+  .additional-information strong {
+    color: var(--accent-color);
+  }
+  
+  .additional-information p {
+    margin-bottom: 10px;
+  }
+
+.info-options {
+  display: flex;
+}
+
+.interests,
+.topics {
+  flex: 1;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+  

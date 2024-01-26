@@ -51,7 +51,9 @@ footer {
   text-align: center;
 }
 
-.footer-social-media a {
+.footer-social-media button {
+  background-color: transparent;
+  border: none;
   margin-right: 10px;
   color: var(--secondary-color);
   text-decoration: none;
@@ -59,7 +61,7 @@ footer {
   transition: color 0.3s ease-in-out;
 }
 
-.footer-social-media a:hover {
+.footer-social-media button:hover {
   color: var(--accent-color);
 }
 
